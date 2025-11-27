@@ -1,0 +1,13 @@
+# Config.toml
+listen_addr = "0.0.0.0:8080"
+p2p_port = 9000
+node_name = "Genesis-0276-VietNam"
+bootnodes = [
+    "/dns/bootnode.pappapai.xyz/tcp/9000/p2p/12D3KooW..."
+]
+
+[database]
+path = "./pappap-data"
+
+[network]
+topic = "pappap-ai-chain-snn-2025"

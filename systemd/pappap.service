@@ -1,0 +1,15 @@
+[Unit]
+Description=Pappap AI Chain - Genesis Node 0276
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/pappap-ai-chain
+ExecStart=/usr/local/bin/pappap-ai-chain
+Restart=always
+RestartSec=5
+LimitNOFILE=1000000
+
+[Install]
+WantedBy=multi-user.target
